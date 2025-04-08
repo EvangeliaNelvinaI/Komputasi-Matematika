@@ -1,1 +1,1 @@
-# Komputasi-Matematika
+# KomputasiMatematika
