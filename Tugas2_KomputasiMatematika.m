@@ -11,6 +11,14 @@ if v > 0
     else
         disp('Perlambatan gerak');
     end
+elseif v == 0
+    if a == 0
+         disp('Benda Diam');
+    elseif a < 0
+         disp('percepatan tidak valid');
+    else
+         disp('Benda Mulai bergerak');
+    end
 else
     disp('Nilai kecepatan tidak benar');
 end
@@ -46,4 +54,5 @@ while Pengulangan
         Pengulangan = false;
     end
 end
+
            
